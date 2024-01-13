@@ -14,7 +14,6 @@ class ProductResource {
         .baseUri(URI.create("https://dummyjson.com"))
         .build(ProductsService::class.java)
 
-
     @GET
     @Path("/id/{id}")
     fun id(id: String): Product {
