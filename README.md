@@ -1,6 +1,9 @@
 # rest-client-kotlin
 
-- Query from https://dummyjson.com
+- Use Kotlin
+- Use REST Client Reactive
+- Query from https://dummyjson.com 
+- Response in own endpoint 
 
 ```shell
 curl -X GET "http://localhost:8080/hello"
